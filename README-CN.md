@@ -5,10 +5,10 @@
 
 用到了 bezier-easing: https://github.com/gre/bezier-easing
 
-![GIF](./anim.gif)
-![GIF](./anim2.gif)
-![GIF](./anim3.gif)
-![GIF](./canseq.gif)
+![GIF](./markdown_file/anim.gif)
+![GIF](./markdown_file/anim2.gif)
+![GIF](./markdown_file/anim3.gif)
+![GIF](./markdown_file/canseq.gif)
 
 ## 使用Anim.js在React或者ReactNative项目
 ### 1.下载并引用Anim.js
