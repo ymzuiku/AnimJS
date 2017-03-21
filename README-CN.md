@@ -19,31 +19,31 @@ import Anim from './Anim.js'
 ### 2.绑定this.state数据在组件上
 ```
 render() {
-	return (
-		<div style={{
-			transform: `translateX(${this.state.x}px)`,
-			width: 200,
-			height: 200,
-			backgroundColor: '#f00',
-			color: '#fff',
-		}}
-			onClick={this.handleClick}
-		>
-			Touch Me!
-		</div>
-	)
-	handleClick = ()=>{}
+  return (
+    <div style={{
+      transform: `translateX(${this.state.x}px)`,
+      width: 200,
+      height: 200,
+      backgroundColor: '#f00',
+      color: '#fff',
+    }}
+      onClick={this.handleClick}
+    >
+      Touch Me!
+    </div>
+  )
+  handleClick = ()=>{}
 }
 ```
 ### 3.使用Anim.js修改this.state.x
 ```
 handleClick = () => {
-	let move = Anim.init(0.5, (p) => {
-		this.setState({
-			x: Anim.motion(0, 100, p)
-		})
-	})
-	move.play()
+  let move = Anim.init(0.5, (p) => {
+    this.setState({
+      x: Anim.motion(0, 100, p)
+    })
+  })
+  move.play()
 }
 ```
 
@@ -61,8 +61,8 @@ value is 0~1 in 0.3 second
 > Anim.motion(开始值, 结束值, 系数)
 ```
 let an = Anim.init(0.3, (value)=>{
-	let per = Anim.motion(50, 150, value)
-	console.log(per)
+  let per = Anim.motion(50, 150, value)
+  console.log(per)
 })
 an.play()
 ```
@@ -70,8 +70,8 @@ an.play()
 ### Anim.ease 曲线动画
 ```
 let an = Anim.init(0.3, (value)=>{
-	let per = Anim.motion(50, 150, value)
-	console.log(per)
+  let per = Anim.motion(50, 150, value)
+  console.log(per)
 })
 an.easing = Anim.ease.spring
 //or
