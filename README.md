@@ -4,9 +4,10 @@ Animation of all Javascript frame
 Use bezier-easing: https://github.com/gre/bezier-easing
 
 ![GIF](./anim.gif)
-![GIF](./ra.gif)
-![GIF](./ra2.gif)
+![GIF](./anim2.gif)
+![GIF](./anim3.gif)
 ![GIF](./canseq.gif)
+
 
 ## Use Anim.js in React or ReactNative
 ### 1.Download Anim.js, and import
