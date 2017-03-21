@@ -1,6 +1,8 @@
 # AnimJS
 Animation of all Javascript frame
 
+Use bezier-easing: https://github.com/gre/bezier-easing
+
 ## Use Anim.js in React or ReactNative
 ### 1.Download Anim.js, and import
 ```
@@ -26,7 +28,7 @@ render() {
 	handleClick = ()=>{}
 }
 ```
-### 3.Use Anim.js
+### 3.Use Anim.js change this.state.x
 ```
 handleClick = () => {
 	let move = Anim.init(0.5, (p) => {
@@ -65,6 +67,8 @@ let an = Anim.init(0.3, (value)=>{
 	console.log(per)
 })
 an.easing = Anim.ease.spring
+//or
+an.easing = [0.25, 0.5, 0.7, 1]
 an.play()
 ```
 
