@@ -11,7 +11,7 @@
 ![GIF](./canseq.gif)
 
 ## 使用Anim.js在React或者ReactNative项目
-### 1.Download Anim.js, and import
+### 1.下载并引用Anim.js
 ```
 import Anim from './Anim.js'
 ```
