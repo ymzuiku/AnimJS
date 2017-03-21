@@ -5,10 +5,10 @@ Animation of all Javascript frame
 
 Use bezier-easing: https://github.com/gre/bezier-easing
 
-![GIF](./anim.gif)
-![GIF](./anim2.gif)
-![GIF](./anim3.gif)
-![GIF](./canseq.gif)
+![GIF](./markdown_file/anim.gif)
+![GIF](./markdown_file/anim2.gif)
+![GIF](./markdown_file/anim3.gif)
+![GIF](./markdown_file/canseq.gif)
 
 ## Use Anim.js in React or ReactNative
 ### 1.Download Anim.js, and import
