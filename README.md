@@ -1,4 +1,6 @@
 # AnimJS
+[中文说明](./README-CN.md)
+
 Animation of all Javascript frame
 
 Use bezier-easing: https://github.com/gre/bezier-easing
@@ -7,7 +9,6 @@ Use bezier-easing: https://github.com/gre/bezier-easing
 ![GIF](./anim2.gif)
 ![GIF](./anim3.gif)
 ![GIF](./canseq.gif)
-
 
 ## Use Anim.js in React or ReactNative
 ### 1.Download Anim.js, and import
@@ -52,7 +53,7 @@ handleClick = () => {
 > Anim.init(time, function)
 ```
 let an = Anim.init(0.3, (value)=>{console.log(value)})
-an.play(()=>{console.log('animation is end)})
+an.play(()=>{console.log('animation is end')})
 ```
 value is 0~1 in 0.3 second
 
@@ -88,6 +89,6 @@ an.play()
 
 ### play(callback()), stop()
 ```
-an.play(()=>{console.log('animation is end)})
+an.play(()=>{console.log('animation is end')})
 an.stop()
 ```
